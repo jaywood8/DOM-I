@@ -55,5 +55,20 @@ navText[3].textContent = siteContent["nav"]["nav-item-4"];
 navText[4].textContent = siteContent["nav"]["nav-item-5"];
 navText[5].textContent = siteContent["nav"]["nav-item-6"];
 
-const ctaText = document.querySelector("cta-text h1");
-ctaText.textContent = siteContent["cta"]["h1"];
+const ctaText = document.querySelector(".cta-text h1");
+ctaText.innerHTML = "DOM<br> Is<br> Awesome";
+
+const btnText = document.querySelector(".cta-text button");
+btnText.textContent = siteContent["cta"]["button"];
+// document.querySelector(".cta-text h1").style.whiteSpace = 'pre';
+
+const mainTextHeaders = document.querySelectorAll(".text-content h4");
+// mainTextHeaders.textContent[0] = siteContent["main-content"]["features-content"];
+mainTextHeaders.innerHTML = "Test"
+
+const mainText = document.getElementsByClassName(".text-content h4" );
+mainText.textContent[0] = siteContent["main-content"]["features-content"];
+mainText.innerHTML = "Test"
+
+querySelectorAll
+getElementsByClassName
