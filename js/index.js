@@ -62,13 +62,5 @@ const btnText = document.querySelector(".cta-text button");
 btnText.textContent = siteContent["cta"]["button"];
 // document.querySelector(".cta-text h1").style.whiteSpace = 'pre';
 
-const mainTextHeaders = document.querySelectorAll(".text-content h4");
-// mainTextHeaders.textContent[0] = siteContent["main-content"]["features-content"];
-mainTextHeaders.innerHTML = "Test"
-
-const mainText = document.getElementsByClassName(".text-content h4" );
-mainText.textContent[0] = siteContent["main-content"]["features-content"];
-mainText.innerHTML = "Test"
-
-querySelectorAll
-getElementsByClassName
+const featuresHeader = document.querySelectorAll("h4");
+featuresHeader.textContent[0] = siteContent["main-content"]["features-h4"];
